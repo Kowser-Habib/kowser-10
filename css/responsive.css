@@ -1,0 +1,588 @@
+/* Extra small devices  start(portrait phones, less than 576px)*/
+@media (max-width: 320px) {
+    .navbar-toggler-icon {
+        margin-top: -60px;
+    }
+
+    .header-text h2 {
+        font-size: 24px;
+    }
+
+    .header-text {
+        padding-top: 0px;
+    }
+
+    .header-part {
+        height: 74vh;
+    }
+
+    .middle-one .text-part p {
+        margin-right: -88px;
+        margin-left : -79px;
+    }
+
+    .middle-one .text-part h2 {
+        font-size  : 20px;
+        margin-left: -80px;
+    }
+
+    .middle-tow .text-part p {
+        margin-right: -88px;
+        margin-left : -163px;
+    }
+
+    .middle-tow .text-part h2 {
+        font-size  : 30px;
+        margin-left: -164px;
+    }
+
+    .middle-tow .image-part {
+        margin-left: -70px;
+        margin-top : 250px;
+    }
+
+    .middle-tow .text-part {
+        margin-top: -500px;
+    }
+
+    .features-part {
+        margin-left: 36px;
+    }
+
+    .client-part-tow img {
+        width      : 120px;
+        height     : 120px;
+        margin-left: 74px;
+    }
+
+    p {
+        width: 270px;
+    }
+
+    .client-part-tow .text-part h5 {
+        font-size  : 12px;
+        margin-left: 2px;
+    }
+
+    .second {
+        margin-left: 2px;
+        margin-top : 140px;
+    }
+
+    .client-part-tow .second img {
+        width      : 120px;
+        height     : 120px;
+        margin-top : -550px;
+        margin-left: 66px;
+    }
+
+    .client-heading {
+        background-color: #000000;
+        margin-top      : -240px;
+    }
+
+    .team-part .all-client {
+        margin-left: 30px;
+        margin-top : -76px;
+    }
+
+    .team-part p {
+        margin-left: -260px;
+    }
+
+    .team-part p {
+        margin-left: -260px;
+        padding    : 2px;
+        margin-left: 5px;
+    }
+
+    .Contact-part h5 {
+        padding: 0 35px 0 0;
+
+    }
+}
+
+/* Extra small devices  end(portrait phones, less than 576px)*/
+/*Responsive for 576px to 767.98px device start*/
+/*Responsive for 480px to 575.98px device start*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 480px) and (max-width: 575.98px) {
+    .logo a img {
+        margin-left: -2px;
+    }
+
+    .header-text {
+        padding-top: 4px;
+    }
+
+    .header-text h5 {
+        font-size: 20px;
+    }
+
+    .header-text h2 {
+        font-size: 30px;
+    }
+
+    .header-part {
+        height: 60vh;
+    }
+
+    .middle-one .text-part h2 {
+        font-size: 30px;
+    }
+
+    .middle-one .text-part p {
+        margin-right: -80px;
+    }
+
+    .middle-one .image-part img {
+        width      : 140px;
+        margin-left: 150px;
+    }
+
+    .middle-tow .text-part {
+        padding: 0 4px;
+        width  : 395px;
+    }
+
+    .middle-one .text-part {
+        margin-top: 100px;
+    }
+
+    .middle-one .image-part img {
+        margin-top: -780px;
+    }
+
+    .img-fluid {
+        margin-left: -55px;
+    }
+
+    .client-part-tow img {
+        width      : 120px;
+        height     : 120px;
+        margin-left: 130px;
+    }
+
+    .second {
+        margin-left: 10px;
+    }
+
+    p {
+        width      : 415px;
+        margin-left: 5px;
+    }
+
+    .client-part-tow .second img {
+        width      : 120px;
+        height     : 120px;
+        margin-top : 35px;
+        margin-left: 148px;
+    }
+
+    .team-part .all-client {
+        margin-left: 165px;
+        margin-top : -61px;
+    }
+
+    .team-part h4 {
+        margin-left: 0px;
+    }
+
+    .team-part h6 {
+        margin-left: 28px;
+    }
+
+    .list-inline {
+        padding-left: 0px;
+        list-style  : none;
+    }
+
+    .team-part p {
+        padding: 0 5px;
+    }
+
+    .middle-one .image-part img {
+        margin-top: -660px;
+    }
+}
+
+/*Responsive for 480px to 575.98px device end*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .logo a img {
+        margin-left  : 10px;
+        margin-bottom: 10px;
+    }
+
+    .header-text {
+        padding-top: 15px;
+    }
+
+    .header-text h2 {
+        font-size: 40px;
+    }
+
+    .header-part {
+        height: 60vh;
+    }
+
+    .middle-one .text-part h2 {
+        font-size: 30px;
+    }
+
+    .middle-one .text-part {
+        padding: 0 0px;
+    }
+
+    .middle-one .image-part img {
+        width      : 150px;
+        margin-left: 150px;
+    }
+
+    .middle-one {
+        height: 300px;
+    }
+
+    .middle-one .text-part {
+        margin-top: -60px;
+    }
+
+    .middle-one {
+        height: 245px;
+    }
+
+    .middle-tow .text-part {
+        padding: 0 3px;
+        width  : 500px;
+    }
+
+    .img-fluid {
+
+        margin-bottom: -592px;
+        width        : 180px;
+    }
+
+    .middle-one .image-part img {
+        margin-bottom: 50px;
+    }
+
+    .middle-tow .text-part {
+        margin-top: -90px;
+    }
+
+    .img-fluid {
+        margin-bottom: -400px;
+    }
+
+    .middle-tow {
+        height: 400px;
+    }
+
+    .features-part {
+        height: 924px;
+    }
+
+    .row {
+        margin-top: -20px;
+    }
+
+    .features-part {
+        height: 800px;
+    }
+
+    .client-part-tow .text-par {
+        height: 20px;
+    }
+
+    .client-part-tow .first .text-part {
+        margin-left: -18px;
+        margin-top : 150px;
+    }
+
+    .client-part-tow img {
+        width      : 140px;
+        height     : 140px;
+        margin-top : -220px;
+        margin-left: 178px;
+    }
+
+    .img-fluid {
+        margin-bottom: -470px;
+    }
+
+    p {
+        padding: 0 5px;
+    }
+
+    .second {
+        margin-left: -30px;
+    }
+
+    .client-part-tow .first {
+        margin-left: -14px;
+    }
+
+    .second {
+        margin-left: -30px;
+        margin-top : 89px;
+    }
+
+    .client-part-tow .second img {
+        width      : 140px;
+        height     : 140px;
+        margin-top : -896px;
+        margin-left: 190px;
+    }
+
+    .list-inline-item:not(:last-child) {
+        margin-top: 110px;
+    }
+
+    .team-part h4 {
+        margin-top: 290px;
+    }
+
+    .list-inline {
+        padding-left: 30px;
+        margin-top  : -112px;
+    }
+
+    .team-part p {
+        padding: 0 20px;
+
+    }
+
+    .Contact .icon-part {
+        margin-top: 30px;
+        font-size : 40px;
+    }
+
+    .middle-one .text-part h2 {
+        margin-top: 24px;
+    }
+
+    .middle-tow .text-part h2 {
+        margin-top: 24px;
+    }
+
+    .Contact-part h6 {
+        font-size: 35px;
+    }
+
+    .bottom-line .line {
+        width: 514px;
+    }
+
+    .client-part-tow img {
+        margin-top: -294px;
+    }
+
+    .client-part-tow .second img {
+        margin-top: -970px;
+    }
+
+    .team-part img {
+        margin-top: -85px;
+    }
+}
+
+/*Responsive for 576px to 767.98px device end*/
+/*Responsive for 768px to 991.98px device start*/
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .middle-one .image-part img {
+        width      : 200px;
+        margin-left: 200px;
+    }
+
+    .logo a img {
+        margin-left: 0px;
+    }
+
+    .header-text {
+        text-align : center;
+        color      : #ffffff;
+        padding-top: 50px;
+    }
+
+    .middle-one .text-part {
+        padding: 0 198px 0 0;
+    }
+
+    .middle-one .image-part img {
+        width      : 140px;
+        margin-left: 510px;
+        margin-top : -220px;
+    }
+
+    .header-part {
+        height: 80vh;
+    }
+
+    .middle-one {
+        margin-top: 80px;
+        height    : 150px;
+    }
+
+    .middle-one .text-part {
+        margin-top: -50px;
+    }
+
+    .middle-tow .text-part {
+        padding    : 0 0px 0 0;
+        margin-left: 86px;
+    }
+
+    .middle-tow .image-part {
+        margin-left: -90px;
+        width      : 160px;
+    }
+
+    .middle-tow .text-part {
+        padding    : 0 0px 0 0;
+        margin-left: 86px;
+        margin-top : -140px;
+    }
+
+    .middle-tow {
+        height: 260px;
+    }
+
+    .middle-tow .text-part {
+        margin-top: -180px;
+    }
+
+    .features-part {
+        height: 910px;
+    }
+
+    .row {
+        margin-top: -10px;
+    }
+
+    .img-fluid {
+        margin-top: 22px;
+    }
+
+    .row {
+        margin-left: 44px;
+    }
+
+    .team-part .all-client {
+        margin-left: 150px;
+    }
+
+    .client-heading .text-part {
+        margin-top : 32px;
+        margin-left: -70px;
+    }
+
+    .list-inline {
+        padding-left: 22px;
+    }
+
+    .team-part p {
+        padding: 0 50px;
+    }
+
+    .Contact-part h2 {
+        margin-left: 140px;
+    }
+
+    .Contact-part h5 {
+        margin-left: 46px;
+        text-align : center;
+    }
+
+    .Contact .icon-part {
+
+        margin-top: 5px;
+        font-size : 30px;
+    }
+
+    .Contact-part h6 {
+        color     : #ffffff;
+        font-size : 30px;
+        margin-top: 30px;
+    }
+
+    .bottom-line .line {
+        content         : '';
+        width           : 580px;
+        height          : 0.5px;
+        background-color: #fafafa;
+    }
+
+    .last-part h5 {
+        margin-left: -40px;
+    }
+
+    .team-part p {
+        margin-right: 70px;
+    }
+
+    .client-part-tow .second img {
+        width      : 120px;
+        height     : 120px;
+        margin-top : -480px;
+        margin-left: -155px;
+    }
+
+    .client-part-tow img {
+        width        : 120px;
+        height       : 120px;
+        margin-bottom: -256px;
+        margin-left  : -155px;
+    }
+
+    .client-part-tow img {
+        margin-left: -150px !important;
+    }
+
+    .second .text-part::after {
+        margin-left: 525px;
+    }
+
+    .middle-one .text-part h2 {
+        font-size  : 40px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .middle-one .image-part img {
+        margin-left: 400px;
+    }
+
+    .client-part-tow img {
+        margin-left: -150px;
+    }
+
+    .client-part-tow img {
+        margin-left: -114px;
+
+    }
+
+    .client-part-tow .first {
+        margin-left: 44px;
+    }
+
+}
+
+/*Responsive for 768px to 991.98px device end*/
+/*Responsive for 992px to 1199.98px device start*/
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .client-part-tow img {
+        margin-left: 28px;
+    }
+
+    .client-part-tow .second img {
+        margin-left: 36px;
+    }
+
+    .team-part .all-client {
+        margin-left: 46px;
+        margin-top : -68px;
+    }
+}
+
+/*Responsive for 992px to 1199.98px device end*/

@@ -1,0 +1,430 @@
+body {
+    margin         : 0;
+    padding        : 0;
+    height         : 1500px;
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/*header part start*/
+.header-part {
+    background-image   : url(img/img/header\ background.jpg);
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    background-position: center;
+    padding            : 20px 0 80px 0;
+    height             : 100vh;
+}
+
+.header-part img {
+    margin-top: 1px;
+}
+
+.header-text {
+    text-align : center;
+    color      : #ffffff;
+    padding-top: 140px;
+}
+
+.header-text button {
+    border   : 3px solid #ffffff;
+    color    : #ffffff;
+    padding  : 5px;
+    width    : 200px;
+    font-size: 18px;
+}
+
+.header-text button:hover {
+    color: #ffffff;
+}
+
+.header-text h2 {
+    font-size     : 50px;
+    font-weight   : 600;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    padding-top   : 5px;
+}
+
+.header-text h5 {
+    color      : #ffffff;
+    font-size  : 28px;
+    font-family: BrandonGrotesque Light;
+}
+
+.header-part img {
+    font-family: Cubano Regular;
+}
+
+/*header part end*/
+/*menu part start*/
+.menu ul li a {
+    font-weight: 700;
+    font-size  : 18px;
+    color      : #ffffff !important;
+    padding    : 0 15px !important;
+}
+
+.menu ul {
+    margin-right: 100px;
+}
+
+.logo a img {
+    margin-left: 100px;
+}
+
+/*menu part end*/
+/*middle one part start*/
+.bold {
+    font-weight: 700;
+}
+
+.middle-one {
+    margin-top: 80px;
+}
+
+.middle-one .text-part {
+    padding: 0 95px;
+
+}
+
+.middle-one .text-part p {
+    color       : #747474;
+    font-size   : 14px;
+    margin-right: 18px;
+}
+
+.middle-one .text-part h2 {
+    font-size  : 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+.middle-one .image-part img {
+    width: 200px;
+
+}
+
+/*middle one part end*/
+/*middle tow part start*/
+.middle-tow {
+    margin-top      : 80px;
+    background-color: #fafafa;
+    padding         : 80px;
+}
+
+.middle-tow .text-part {
+    padding: 0 100px;
+}
+
+.middle-tow .text-part h2 {
+    font-size: 45px;
+}
+
+.middle-tow .text-part p {
+    color       : #747474;
+    font-size   : 14px;
+    margin-right: 30px;
+}
+
+.middle-tow .image-part {
+    margin-left: 90px;
+}
+
+/*middle tow part end*/
+/*features part start*/
+.features-part .icon-part {
+    width                : 50px;
+    height               : 50px;
+    border-radius        : 50%;
+    background-color     : #222222;
+    color                : #ffffff;
+    text-align           : center;
+    font-size            : 30px;
+    scroll-padding-bottom: 10px !important;
+}
+
+svg:not(:root).svg-inline--fa {
+    margin-bottom: 0px;
+}
+
+.features-part .text-part h2 {
+    font-size  : 18px;
+    color      : #222222;
+    font-weight: 500;
+}
+
+.features-part .text-part p {
+    font-size    : 12px;
+    width        : 250px;
+    padding      : 0 20px 0 0;
+    color        : #6e6d6d;
+    margin-bottom: 40px;
+}
+
+.features-part {
+    margin-top : 80px;
+    margin-left: 160px;
+}
+
+/*features part end*/
+/*client part  start*/
+.client-part {
+    text-align      : center;
+    margin-top      : 100px;
+    background-color: #fafafa;
+}
+
+.client-part h2 {
+    font-size  : 50px;
+    font-family: BrandonGrotesque Light;
+}
+
+.client-part h5 {
+    font-size: 18px;
+    color    : #777777;
+}
+
+.client-part-tow {
+    background-color: #fafafa;
+}
+
+.client-part-tow .first {
+    margin-left: 2px;
+}
+
+z .client-part-tow .text-part p {
+    padding    : 0 85px;
+    font-size  : 18pX;
+    color      : #777777;
+    font-family: BrandonGrotesque regular;
+
+}
+
+.client-part-tow .text-part h5 {
+    margin-left: 125px;
+    font-size  : 15px;
+}
+
+.client-part-tow .text-part {
+    margin-top      : 50px;
+    background-color: #ffffff;
+    padding         : 30px 0;
+    border          : 1px solid #eee6e6;
+    width           : 550px;
+    height          : 166px;
+}
+
+.client-part-tow img {
+    width           : 200px;
+    height          : 200px;
+    border-radius   : 50%;
+    background-color: #000000;
+    margin-top      : 35px;
+    margin-left     : 130px;
+}
+
+.client-part-tow .second img {
+    width           : 200px;
+    height          : 200px;
+    border-radius   : 50%;
+    background-color: #000000;
+    margin-top      : 35px;
+    margin-left     : -80px;
+}
+
+.client-part-tow .text-part::before {
+    content      : '';
+    width        : 0;
+    height       : 0;
+    position     : absolute;
+    border-top   : 10px solid transparent;
+    border-right : 20px solid #ffffff;
+    border-bottom: 10px solid transparent;
+    margin-top   : 5%;
+    margin-left  : -18px;
+}
+
+.second .text-part::after {
+    content      : '';
+    width        : 0;
+    height       : 0;
+    position     : absolute;
+    border-top   : 10px solid transparent;
+    border-left  : 20px solid #ffffff;
+    border-bottom: 10px solid transparent;
+    margin-top   : -7%;
+    margin-left  : 548px;
+}
+
+.second {
+    margin-left: 100px;
+}
+
+/*client part end*/
+/*logo part start*/
+.logo-part {
+    padding: 20px 150px;
+}
+
+.logo-part img {
+    margin-bottom: 0px
+}
+
+.logo-part img {
+    margin-bottom: 15px;
+    margin-left  : 37px;
+    margin-top   : 30px;
+}
+
+.team-part .all-client {
+    margin-left: 134px;
+    margin-top : -128px;
+}
+
+.team-part .all-client {
+    margin-left: 140px;
+}
+
+/*logo part end*/
+/*client-heading part start*/
+.client-heading .text-part {
+    padding         : 40px 0;
+    background-color: #000000;
+    color           : #ffffff;
+    text-align      : center;
+    font-family     : BrandonGrotesque light;
+}
+
+.client-heading .text-part h6 {
+    font-size: 14px;
+    color    : #5d5d5d;
+}
+
+.client-heading {
+    background-color: #000000;
+}
+
+/*client-heading part end*/
+/*team part start*/
+.team-part img {
+    width           : 200px;
+    height          : 200px;
+    border-radius   : 50%;
+    background-color: #000000;
+    border          : 5px solid #ffffff;
+}
+
+.team-part {
+    background-color: #000000;
+}
+
+.team-part h4 {
+    color      : #ffffff;
+    padding    : 0 10px;
+    font-size  : 14px;
+    margin-left: 50px;
+}
+
+.team-part h6 {
+    color      : #ffffff;
+    font-size  : 13px;
+    margin-left: 65px;
+    margin-top : 10px;
+}
+
+.team-part ul li {
+    color        : #ffffff;
+    font-size    : 20px;
+    margin-left  : 10px;
+    border       : 3px solid #ffffff;
+    width        : 30px;
+    height       : 30px;
+    text-align   : center;
+    border-radius: 50%;
+}
+
+.team-part ul li a {
+    color    : #ffffff;
+    font-size: 20px;
+}
+
+.team-part {
+    padding: 40px 0;
+}
+
+.team-part .all-client {
+    margin-left: 90px;
+}
+
+.team-part p {
+    padding   : 0 280px;
+    text-align: center;
+    font-size : 14px;
+    color     : #ffffff;
+    padding   : 0 280px;
+    text-align: center;
+    font-size : 14px;
+    color     : #ffffff;
+}
+
+/*team part end*/
+/*contact part start*/
+.Contact-part {
+    background-color: #7690c5;
+}
+
+.Contact-part .Contact {
+    padding: 70px 0;
+}
+
+.last-part h5 {
+    text-align      : center;
+    font-size       : 14px;
+    background-color: #7690c5;
+    margin-bottom   : 30px;
+    color           : #ffffff;
+    margin-top      : 30px;
+}
+
+.last-part {
+    background-color: #7690c5;
+}
+
+.Contact-part h2 {
+    color      : #ffffff;
+    font-size  : 45px;
+    font-family: BrandonGrotesque light;
+}
+
+.Contact-part h6 {
+    color      : #ffffff;
+    font-size  : 14px;
+    font-family: BrandonGrotesque light;
+    margin-top : 30px;
+}
+
+.Contact-part h5 {
+    color      : #ffffff;
+    font-size  : 14px;
+    padding    : 0 150px 0 0;
+    font-family: BrandonGrotesque regular;
+}
+
+.Contact .icon-part {
+    color     : #ffffff !important;
+    margin-top: 30px;
+}
+
+/*contact part end*/
+/*bottom line part start*/
+.bottom-line .line {
+    content         : '';
+    width           : 1100px;
+    height          : 0.5px;
+    background-color: #fafafa;
+}
+
+/*bottom line part end*/
